@@ -1,4 +1,4 @@
-FROM node:10.13.0 AS generate-designer-js
+FROM node:13.0.1 AS generate-designer-js
 COPY /src/AltinnCore/Designer/package.json .
 COPY /src/AltinnCore/Designer/package-lock.json .
 RUN npm ci
