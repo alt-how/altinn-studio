@@ -20,7 +20,7 @@ FROM altinn-studio-service-development:latest AS altinn-studio-service-developme
 FROM altinn-studio-dashboard:latest AS altinn-studio-dashboard
 
 #dotnet:3.0-aspnetcore-runtime
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-alpine AS final
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.0-alpine AS final
 EXPOSE 80
 WORKDIR /app
 COPY --from=build /app_output .
