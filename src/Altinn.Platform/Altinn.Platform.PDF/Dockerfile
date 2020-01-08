@@ -1,4 +1,4 @@
-FROM maven:3-jdk-13 AS build
+FROM maven:3-jdk-14 AS build
 WORKDIR build
 COPY . .
 RUN mvn -Pprod package
