@@ -27,7 +27,7 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.14" />
     <PackageReference Include="JWTCookieAuthentication" Version="2.0.0-alpha" />
     <PackageReference Include="LibGit2Sharp" Version="0.26.0" />
-    <PackageReference Include="Manatee.Json" Version="10.1.2" />
+    <PackageReference Include="Manatee.Json" Version="12.1.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
     <PackageReference Include="Microsoft.CodeAnalysis" Version="3.4.0-beta2-final" />
   </ItemGroup>
