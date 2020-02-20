@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1.101-alpine AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.102-alpine AS build
 WORKDIR Profile/
 
 COPY Profile ./Profile
