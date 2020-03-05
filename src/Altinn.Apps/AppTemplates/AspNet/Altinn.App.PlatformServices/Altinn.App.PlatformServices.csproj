@@ -31,7 +31,7 @@
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.Kubernetes" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
-    <PackageReference Include="Microsoft.CodeAnalysis" Version="3.5.0-beta2-final" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="3.5.0-beta3-final" />
   </ItemGroup>
 
  <ItemGroup>
