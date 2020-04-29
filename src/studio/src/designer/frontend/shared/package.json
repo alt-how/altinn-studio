@@ -26,7 +26,7 @@
     "moment": "2.24.0",
     "react-content-loader": "4.2.1",
     "react-html-parser": "2.0.2",
-    "react-monaco-editor": "0.22.0",
+    "react-monaco-editor": "0.36.0",
     "react-router-dom": "4.3.1",
     "react-truncate-markup": "2.0.1",
     "typescript": "3.7.3"
