@@ -38,7 +38,7 @@
     "@types/classnames": "2.2.6",
     "@types/diff": "3.5.2",
     "@types/dompurify": "0.0.33",
-    "@types/enzyme": "3.9.4",
+    "@types/enzyme": "3.10.5",
     "@types/jest": "23.3.14",
     "@types/jsdom": "12.2.1",
     "@types/marked": "0.6.5",
