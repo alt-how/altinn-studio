@@ -73,7 +73,7 @@
     "awesome-typescript-loader": "5.0.0",
     "babel-jest": "24.7.1",
     "classnames": "2.2.6",
-    "cross-env": "5.1.6",
+    "cross-env": "7.0.2",
     "css-loader": "2.1.1",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
