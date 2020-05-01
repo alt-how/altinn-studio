@@ -46,7 +46,7 @@
     "@types/react-html-parser": "2.0.1",
     "@types/react-router-dom": "4.3.1",
     "@types/react-test-renderer": "16.8.1",
-    "altinn-designsystem": "2.0.19",
+    "altinn-designsystem": "2.7.4",
     "babel-jest": "24.7.1",
     "babel-loader": "8.0.6",
     "enzyme": "3.10.0",
