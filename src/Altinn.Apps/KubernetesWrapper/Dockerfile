@@ -10,7 +10,7 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.3-alpine AS final
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.4-alpine AS final
 WORKDIR /app
 COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "KubernetesWrapper.dll"]
