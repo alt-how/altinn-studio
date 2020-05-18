@@ -56,7 +56,7 @@
     "jest-enzyme": "7.0.2",
     "jest-junit": "6.3.0",
     "jsdom": "13.2.0",
-    "react": "16.8.6",
+    "react": "16.13.1",
     "react-docgen-typescript": "1.12.4",
     "react-dom": "16.8.6",
     "react-styleguidist": "9.1.2",
