@@ -47,7 +47,7 @@
   "devDependencies": {
     "@babel/core": "7.6.0",
     "@babel/preset-env": "7.6.0",
-    "@babel/preset-react": "7.0.0",
+    "@babel/preset-react": "7.10.0",
     "@types/classnames": "2.2.6",
     "@types/enzyme": "3.9.4",
     "@types/jest": "23.3.14",
