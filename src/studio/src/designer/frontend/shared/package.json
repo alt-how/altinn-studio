@@ -29,7 +29,7 @@
     "react-monaco-editor": "0.22.0",
     "react-router-dom": "4.3.1",
     "react-truncate-markup": "2.0.1",
-    "typescript": "3.7.3"
+    "typescript": "3.9.3"
   },
   "devDependencies": {
     "@babel/core": "7.6.0",
