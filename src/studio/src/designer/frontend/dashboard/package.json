@@ -78,7 +78,7 @@
     "prettier": "1.19.1",
     "prettier-tslint": "0.4.2",
     "react-test-renderer": "16.8.6",
-    "redux-mock-store": "1.5.3",
+    "redux-mock-store": "1.5.4",
     "resolve-url-loader": "3.0.0",
     "rimraf": "2.6.2",
     "source-map-loader": "0.2.3",
