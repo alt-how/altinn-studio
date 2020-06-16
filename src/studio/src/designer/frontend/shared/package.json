@@ -28,7 +28,7 @@
     "react-html-parser": "~2.0.2",
     "react-monaco-editor": "~0.36.0",
     "react-router-dom": "~5.2.0",
-    "react-truncate-markup": "~4.1.1",
+    "react-truncate-markup": "~5.0.0",
     "typescript": "~3.9.2"
   },
   "devDependencies": {
