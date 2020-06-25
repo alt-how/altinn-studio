@@ -74,7 +74,7 @@
     "eslint-config-airbnb-base":"~14.2.0",
     "html-loader":"~1.1.0",
     "html-webpack-plugin":"~4.3.0",
-    "jest":"~26.0.1",
+    "jest":"~26.1.0",
     "jest-environment-enzyme":"~7.1.2",
     "jest-enzyme":"~7.1.2",
     "jest-junit":"~10.0.0",
