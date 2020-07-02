@@ -50,7 +50,7 @@
     "uuid": "3.4.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "~5.10.1",
+    "@testing-library/jest-dom": "~5.11.0",
     "@testing-library/react": "~10.4.3",
     "@types/classnames": "~2.2.10",
     "@types/dot-object": "~2.1.1",
