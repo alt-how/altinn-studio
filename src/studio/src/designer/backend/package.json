@@ -35,7 +35,7 @@
     "requirejs": "2.3.5",
     "requirejs-text": "2.0.15",
     "rivets": "0.9.6",
-    "select2": "4.0.6-rc.1",
+    "select2": "4.0.13",
     "sightglass": "0.2.6",
     "underscore": "1.9.1"
   }
