@@ -15,7 +15,7 @@
     "chokidar": "2.0.3",
     "cross-env": "5.1.6",
     "del": "3.0.0",
-    "gulp": "4.0.0",
+    "gulp": "4.0.2",
     "gulp-run-command": "0.0.9",
     "lerna": "3.18.5",
     "webpack": "4.12.0",
