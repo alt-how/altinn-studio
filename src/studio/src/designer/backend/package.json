@@ -26,7 +26,7 @@
     "bootstrap-list-filter": "0.3.3",
     "jquery": "3.5.1",
     "jquery-ui-dist": "1.12.1",
-    "jquery-validation": "1.19.1",
+    "jquery-validation": "1.19.2",
     "jquery-validation-unobtrusive": "3.2.11",
     "js-beautify": "1.7.5",
     "json-editor": "0.7.28",
