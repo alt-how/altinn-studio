@@ -32,7 +32,7 @@
     "json-editor": "0.7.28",
     "monaco-editor": "0.13.1",
     "popper.js": "1.16.0",
-    "requirejs": "2.3.5",
+    "requirejs": "2.3.6",
     "requirejs-text": "2.0.15",
     "rivets": "0.9.6",
     "select2": "4.0.6-rc.1",
