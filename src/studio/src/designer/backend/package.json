@@ -12,7 +12,7 @@
     "gulp-develop-dashboard": "gulp develop-dashboard"
   },
   "devDependencies": {
-    "chokidar": "2.0.3",
+    "chokidar": "3.4.0",
     "cross-env": "5.1.6",
     "del": "3.0.0",
     "gulp": "4.0.0",
