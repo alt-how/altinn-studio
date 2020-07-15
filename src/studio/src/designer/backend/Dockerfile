@@ -18,7 +18,7 @@ FROM altinn-studio-app-development:latest AS altinn-studio-app-development
 # Altinn-Studio Dashboard
 FROM altinn-studio-dashboard:latest AS altinn-studio-dashboard
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.4-alpine AS final
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.6-alpine AS final
 EXPOSE 80
 WORKDIR /app
 COPY --from=build /app_output .
