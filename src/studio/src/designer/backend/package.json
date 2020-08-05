@@ -22,7 +22,7 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
-    "bootstrap": "4.5.0",
+    "bootstrap": "4.5.1",
     "bootstrap-list-filter": "0.3.3",
     "jquery": "3.5.1",
     "jquery-ui-dist": "1.12.1",
