@@ -35,7 +35,7 @@
     "lodash.isequal": "~4.5.0",
     "moment": "~2.27.0",
     "react": "~16.13.1",
-    "react-content-loader": "~5.1.0",
+    "react-content-loader": "~5.1.1",
     "react-device-detect": "~1.13.1",
     "react-dom": "~16.13.1",
     "react-dropzone": "~11.0.3",
