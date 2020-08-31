@@ -24,7 +24,7 @@
     "dompurify": "~2.0.12",
     "marked": "~1.1.1",
     "moment": "~2.27.0",
-    "react-content-loader": "~5.1.0",
+    "react-content-loader": "~5.1.1",
     "react-html-parser": "~2.0.2",
     "react-monaco-editor": "~0.40.0",
     "react-router-dom": "~5.2.0",
