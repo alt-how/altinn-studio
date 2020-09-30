@@ -88,7 +88,7 @@
     "source-map-loader": "~1.1.0",
     "style-loader": "~1.2.1",
     "svg-inline-loader": "~0.8.2",
-    "ts-jest": "~26.4.0",
+    "ts-jest": "~26.4.1",
     "ts-loader": "~8.0.4",
     "terser-webpack-plugin": "~4.2.2",
     "webpack": "~4.44.2",
