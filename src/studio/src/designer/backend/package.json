@@ -14,7 +14,7 @@
   "devDependencies": {
     "chokidar": "3.4.2",
     "cross-env": "7.0.2",
-    "del": "5.1.0",
+    "del": "6.0.0",
     "gulp": "4.0.2",
     "gulp-run-command": "0.0.10",
     "lerna": "3.22.1",
