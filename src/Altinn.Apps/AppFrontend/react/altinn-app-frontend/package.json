@@ -28,7 +28,7 @@
     "@material-ui/icons": "~4.9.1",
     "@material-ui/pickers": "~3.2.10",
     "ajv": "~6.12.6",
-    "axios": "~0.20.0",
+    "axios": "~0.21.0",
     "dot-object": "~2.1.4",
     "immutability-helper": "2.7.0",
     "jsonpointer": "4.1.0",
