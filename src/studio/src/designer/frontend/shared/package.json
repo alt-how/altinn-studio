@@ -21,7 +21,7 @@
     "classnames": "~2.2.6",
     "core-js": "~3.6.5",
     "diff": "~4.0.2",
-    "dompurify": "~2.2.0",
+    "dompurify": "~2.2.2",
     "marked": "~1.2.2",
     "moment": "~2.29.1",
     "react-content-loader": "~5.1.3",
