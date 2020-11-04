@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "~5.11.5",
-    "@testing-library/react": "~11.1.0",
+    "@testing-library/react": "~11.1.1",
     "@types/classnames": "~2.2.11",
     "@types/dot-object": "~2.1.2",
     "@types/enzyme": "~3.10.8",
