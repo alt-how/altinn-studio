@@ -20,7 +20,7 @@
     "axios": "~0.21.0",
     "classnames": "~2.2.6",
     "core-js": "~3.6.5",
-    "diff": "~4.0.2",
+    "diff": "~5.0.0",
     "dompurify": "~2.2.2",
     "marked": "~1.2.3",
     "moment": "~2.29.1",
