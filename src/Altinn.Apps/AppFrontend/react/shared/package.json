@@ -31,7 +31,7 @@
     "typescript": "~4.0.5"
   },
   "devDependencies": {
-    "@babel/core": "~7.12.3",
+    "@babel/core": "~7.12.8",
     "@babel/preset-env": "~7.12.1",
     "@babel/preset-react": "~7.12.5",
     "@types/classnames": "~2.2.11",
