@@ -13,7 +13,7 @@
   "dependencies": {},
   "peerDependencies": {
     "@material-ui/core": "~4.11.0",
-    "@material-ui/icons": "~4.9.1",
+    "@material-ui/icons": "~4.11.2",
     "@material-ui/lab": "~4.0.0-alpha.56",
     "@reduxjs/toolkit": "~1.4.0",
     "axios": "~0.21.0",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "~4.11.0",
-    "@material-ui/icons": "~4.9.1",
+    "@material-ui/icons": "~4.11.2",
     "@material-ui/lab": "~4.0.0-alpha.56",
     "@reduxjs/toolkit": "~1.4.0",
     "@rollup/plugin-commonjs": "~16.0.0",
