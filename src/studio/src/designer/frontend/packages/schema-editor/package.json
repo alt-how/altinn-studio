@@ -54,7 +54,7 @@
     "react-scripts": "4.0.1",
     "react-styleguidist": "~11.1.5",
     "rollup": "~2.34.2",
-    "rollup-plugin-css-only": "~2.1.0",
+    "rollup-plugin-css-only": "~3.0.0",
     "rollup-plugin-peer-deps-external": "~2.2.4",
     "rollup-plugin-typescript2": "~0.29.0",
     "ts-jest": "~26.4.4",
