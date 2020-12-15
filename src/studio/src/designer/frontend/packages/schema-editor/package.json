@@ -27,7 +27,7 @@
     "@material-ui/icons": "~4.11.2",
     "@material-ui/lab": "~4.0.0-alpha.56",
     "@reduxjs/toolkit": "~1.5.0",
-    "@rollup/plugin-commonjs": "~16.0.0",
+    "@rollup/plugin-commonjs": "~17.0.0",
     "@rollup/plugin-json": "~4.1.0",
     "@rollup/plugin-node-resolve": "~10.0.0",
     "@testing-library/jest-dom": "~5.11.6",
