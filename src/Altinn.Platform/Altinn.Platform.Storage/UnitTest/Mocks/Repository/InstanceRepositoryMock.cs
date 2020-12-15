@@ -80,23 +80,23 @@ namespace Altinn.Platform.Storage.UnitTest.Mocks.Repository
             {
                 filter = unfilteredInstances
                         .Where(i => (!i.VisibleAfter.HasValue || i.VisibleAfter <= DateTime.UtcNow))
-                        .Where(i => !i.Status.SoftDeleted.HasValue)
-                        .Where(i => !i.Status.HardDeleted.HasValue)
-                        .Where(i => !i.Status.Archived.HasValue);
+                        .Where(i => !i.Status.IsSoftDeleted)
+                        .Where(i => !i.Status.IsHardDeleted)
+                        .Where(i => !i.Status.IsArchived);
             }
             else if (instanceState.Equals("deleted"))
             {
                 filter = unfilteredInstances
-                        .Where(i => i.Status.SoftDeleted.HasValue)
-                        .Where(i => !i.Status.HardDeleted.HasValue);
+                        .Where(i => i.Status.IsSoftDeleted)
+                        .Where(i => !i.Status.IsHardDeleted);
             }
             else if (instanceState.Equals("archived"))
             {
                 filter =
                        unfilteredInstances
-                       .Where(i => i.Status.Archived.HasValue)
-                       .Where(i => !i.Status.SoftDeleted.HasValue)
-                       .Where(i => !i.Status.HardDeleted.HasValue)
+                       .Where(i => i.Status.IsArchived)
+                       .Where(i => !i.Status.IsSoftDeleted)
+                       .Where(i => !i.Status.IsHardDeleted)
                        .OrderByDescending(i => i.Status.Archived);
             }
             else
@@ -234,14 +234,27 @@ namespace Altinn.Platform.Storage.UnitTest.Mocks.Repository
         /// <param name="instance">the instance to preprocess</param>
         private void PostProcess(Instance instance)
         {
+            Guid instanceGuid = Guid.Parse(instance.Id);
             string instanceId = $"{instance.InstanceOwner.PartyId}/{instance.Id}";
 
             instance.Id = instanceId;
+            SetReadStatus(instance);
 
             (string lastChangedBy, DateTime? lastChanged) = InstanceHelper.FindLastChanged(instance);
-
             instance.LastChanged = lastChanged;
             instance.LastChangedBy = lastChangedBy;
+        }
+
+        private void SetReadStatus(Instance instance)
+        {
+            if (instance.Status.ReadStatus == ReadStatus.Read && instance.Data.Any(d => !d.IsRead))
+            {
+                instance.Status.ReadStatus = ReadStatus.UpdatedSinceLastReview;
+            }
+            else if (instance.Status.ReadStatus == ReadStatus.Read && !instance.Data.Any(d => d.IsRead))
+            {
+                instance.Status.ReadStatus = ReadStatus.Unread;
+            }
         }
     }
 }
