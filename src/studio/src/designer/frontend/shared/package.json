@@ -37,7 +37,7 @@
     "@babel/preset-react": "~7.12.10",
     "@types/classnames": "~2.2.11",
     "@types/diff": "~4.0.2",
-    "@types/dompurify": "~2.2.0",
+    "@types/dompurify": "~2.2.1",
     "@types/enzyme": "~3.10.8",
     "@types/jest": "~26.0.20",
     "@types/jsdom": "~16.2.5",
