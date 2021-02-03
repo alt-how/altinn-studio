@@ -49,7 +49,7 @@
     "@babel/preset-env": "~7.12.11",
     "@babel/preset-react": "~7.12.10",
     "@testing-library/jest-dom": "~5.11.9",
-    "@testing-library/react": "~11.2.3",
+    "@testing-library/react": "~11.2.5",
     "@types/classnames": "~2.2.11",
     "@types/enzyme": "~3.10.8",
     "@types/jest": "~26.0.20",
