@@ -43,7 +43,7 @@
   "devDependencies": {
     "@babel/core": "~7.12.10",
     "@babel/polyfill": "~7.12.1",
-    "@babel/preset-env": "~7.12.11",
+    "@babel/preset-env": "~7.12.13",
     "@babel/preset-react": "~7.12.10",
     "@types/classnames": "~2.2.11",
     "@types/enzyme": "~3.10.8",
