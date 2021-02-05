@@ -26,7 +26,7 @@
     <!-- Version 1.1.55 has a single breaking change. Update and test as part of #5587. -->
     <PackageReference Include="Yuniql.AspNetCore" Version="1.0.2" />
     <!-- Version 1.1.55 has a single breaking change. Update and test as part of #5587. -->
-    <PackageReference Include="Yuniql.PostgreSql" Version="1.0.1" />
+    <PackageReference Include="Yuniql.PostgreSql" Version="1.1.55" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)'=='Debug'">
