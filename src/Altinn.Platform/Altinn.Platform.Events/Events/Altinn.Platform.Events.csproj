@@ -16,7 +16,7 @@
     <PackageReference Include="Altinn.Platform.Storage.Interface" Version="2.5.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.16.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
-    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.1" />
     <!-- Major version update (3.1 -> 5.0) to be done in separate issue: #5587 -->
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.11" />
     <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.11" />
