@@ -1,0 +1,24 @@
+name: Docker App Scan CI
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+  pull_request:
+    branches: [ master ]
+    paths:
+      - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build src//Altinn.Apps/AppTemplates/AspNet/ --file  src/Altinn.Apps/AppTemplates/AspNet/Dockerfile --tag AltinnApps:${{github.sha}}
+      
+    - uses: Azure/container-scan@v0
+      with:
+        image-name: AltinnApps:${{ github.sha }}
+    
