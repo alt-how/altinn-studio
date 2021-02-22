@@ -4,11 +4,11 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+      - 'src/Altinn.Platform/Altinn.Platform.Authentication/**'
   pull_request:
     branches: [ master ]
     paths:
-      - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+      - 'src/Altinn.Platform/Altinn.Platform.Authentication/**'
 
 jobs:
   build:
