@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build src/studio/src/designer/ --file  src/studio/src/designer/Dockerfile --tag altinn-designer:${{github.sha}}
+      run: docker build src/studio/ --file  src/studio/src/designer/Dockerfile --tag altinn-designer:${{github.sha}}
       
     - uses: Azure/container-scan@v0
       with:
