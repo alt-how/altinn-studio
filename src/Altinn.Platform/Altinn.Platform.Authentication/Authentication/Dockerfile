@@ -1,3 +1,4 @@
+# hello scan
 FROM mcr.microsoft.com/dotnet/sdk:5.0.103-alpine3.12 AS build
 WORKDIR /Authentication
 
