@@ -1,4 +1,4 @@
-name: Docker Register Scan CI
+name: Docker Receipt Scan CI
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build src/Altinn.Platform/Altinn.Platform.Receipt --file src/Altinn.Platform/Altinn.Platform.Receipt/Receipt/Dockerfile --tag altinn-receipt:${{github.sha}}
+      run: docker build . --file src/Altinn.Platform/Altinn.Platform.Receipt/Receipt/Dockerfile --tag altinn-receipt:${{github.sha}}
       
     - uses: Azure/container-scan@v0
       with:
