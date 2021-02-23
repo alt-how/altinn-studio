@@ -1,4 +1,4 @@
-name: Docker Load balancer Scan CI
+name: Load balancer Scan
 
 on:
   schedule:
