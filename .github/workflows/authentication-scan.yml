@@ -1,4 +1,4 @@
-name: Docker Authentication Scan CI
+name: Authentication Scan
 
 on:
   schedule:
