@@ -1,4 +1,4 @@
-name: Docker Register Scan CI
+name: Register Scan
 
 on:
   schedule:
