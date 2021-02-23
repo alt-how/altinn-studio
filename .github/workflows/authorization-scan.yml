@@ -1,4 +1,4 @@
-name: Docker Authorization Scan CI
+name: Authorization Scan
 
 on:
   schedule:
