@@ -4,11 +4,13 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+      - 'src/Altinn.Apps/AppTemplates/AspNet/**'    
   pull_request:
     branches: [ master ]
     paths:
       - 'src/Altinn.Apps/AppTemplates/AspNet/**'
+  schedule:
+      - cron: '0 8 * * 1,4'
 
 jobs:
   build:
