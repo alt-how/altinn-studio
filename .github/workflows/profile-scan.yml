@@ -1,4 +1,4 @@
-name: Docker Profile Scan CI
+name: Profile Scan
 
 on:
   schedule:
