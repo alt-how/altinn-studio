@@ -1,4 +1,4 @@
-name: Docker App Scan CI
+name: AppTemplate Scan
 
 on:
   push:
