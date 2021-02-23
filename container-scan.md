@@ -4,6 +4,7 @@
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/app-scan.yml/badge.svg)
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/authentication-scan.yml/badge.svg)
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/authorization-scan.yml/badge.svg)
+![](https://github.com/alt-how/altinn-studio/actions/workflows/designer-scan.yml/badge.svg)
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/events-scan.yml/badge.svg)
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/load-balancer-scan.yml/badge.svg)
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/pdf-scan.yml/badge.svg)
