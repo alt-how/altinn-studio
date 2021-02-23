@@ -1,4 +1,4 @@
-name: Docker Repositories Scan CI
+name: Repositories Scan
 
 on:
   schedule:
