@@ -1,4 +1,4 @@
-name: Docker Storage Scan CI
+name: Storage Scan
 
 on:
   schedule:
