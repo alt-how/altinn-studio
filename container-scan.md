@@ -1,4 +1,4 @@
-# Status for container badges
+# Status for container scans
 
 
 ![](https://github.com/alt-how/altinn-studio/actions/workflows/app-scan.yml/badge.svg)
