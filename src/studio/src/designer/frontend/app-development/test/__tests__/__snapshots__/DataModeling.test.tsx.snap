@@ -155,14 +155,199 @@ exports[`DataModeling Should match snapshot 1`] = `
   >
     <div
       class="makeStyles-root-19"
-      id="schema-editor"
     >
-      <button
-        class="makeStyles-button-20"
-        type="button"
+      <div
+        class="MuiGrid-root MuiGrid-container"
       >
-        Add root item
-      </button>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7"
+        >
+          <div
+            class="makeStyles-root-19"
+            id="schema-editor"
+          >
+            <button
+              class="makeStyles-button-21"
+              type="button"
+            >
+              Save data model
+            </button>
+            <ul
+              aria-multiselectable="false"
+              class="MuiTreeView-root makeStyles-tree-20"
+              role="tree"
+            >
+              <li
+                aria-expanded="true"
+                class="MuiTreeItem-root Mui-expanded"
+                role="treeitem"
+                tabindex="0"
+              >
+                <div
+                  class="MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M7 10l5 5 5-5z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTreeItem-label MuiTypography-body1"
+                  >
+                    <div
+                      style="padding: 5px 0px 5px 0px;"
+                    >
+                      <span
+                        class="makeStyles-iconContainer-22"
+                      >
+                        <i
+                          class="fa fa-datamodel-properties"
+                          style="color: white; text-align: center;"
+                        />
+                      </span>
+                       properties
+                    </div>
+                  </div>
+                </div>
+                <ul
+                  class="MuiCollapse-container MuiTreeItem-group MuiCollapse-entered"
+                  role="group"
+                  style="min-height: 0px;"
+                >
+                  <div
+                    class="MuiCollapse-wrapper"
+                  >
+                    <div
+                      class="MuiCollapse-wrapperInner"
+                    >
+                      <li
+                        aria-expanded="false"
+                        class="MuiTreeItem-root makeStyles-treeItem-45"
+                        role="treeitem"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="MuiTreeItem-content"
+                        >
+                          <div
+                            class="MuiTreeItem-iconContainer"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 17l5-5-5-5v10z"
+                              />
+                            </svg>
+                          </div>
+                          <div
+                            class="MuiTypography-root MuiTreeItem-label MuiTypography-body1"
+                          >
+                            <div
+                              class="makeStyles-labelRoot-39"
+                            >
+                              <p
+                                class="MuiTypography-root makeStyles-label-40 MuiTypography-body1"
+                              >
+                                <span
+                                  class="makeStyles-iconContainer-44"
+                                >
+                                  <i
+                                    class="fa fa-datamodel-object"
+                                    style="color: white; text-align: center;"
+                                  />
+                                </span>
+                                 
+                                #/properties/melding
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li
+                class="MuiTreeItem-root"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  />
+                  <div
+                    class="MuiTypography-root MuiTreeItem-label MuiTypography-body1"
+                  >
+                    info
+                  </div>
+                </div>
+              </li>
+              <li
+                aria-expanded="false"
+                class="MuiTreeItem-root"
+                role="treeitem"
+                tabindex="-1"
+              >
+                <div
+                  class="MuiTreeItem-content"
+                >
+                  <div
+                    class="MuiTreeItem-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 17l5-5-5-5v10z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="MuiTypography-root MuiTreeItem-label MuiTypography-body1"
+                  >
+                    definitions
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5"
+        >
+          <div
+            class="makeStyles-root-35"
+          >
+            <div>
+              <p
+                class="no-item-selected"
+              >
+                No item selected
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

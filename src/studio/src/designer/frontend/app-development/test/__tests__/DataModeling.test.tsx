@@ -6,6 +6,7 @@ import configureStore from 'redux-mock-store';
 import { act } from 'react-dom/test-utils';
 import { mount } from 'enzyme';
 import DataModelingContainer from '../../features/dataModeling/containers/DataModelingContainer';
+import * as testData from '../__testdata__/schemaTestData.json';
 
 describe('DataModeling', () => {
   const language = { administration: {} };
@@ -29,7 +30,7 @@ describe('DataModeling', () => {
       },
     },
     dataModeling: {
-      schema: {},
+      schema: testData,
       modelName: 'test',
       saving: false,
     },

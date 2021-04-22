@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'src/studio/AppTemplates/AspNet/**'    
+      - 'src/studio/AppTemplates/AspNet/**'
   pull_request:
     branches: [ master ]
     paths:
@@ -19,8 +19,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build src/studio/AppTemplates/AspNet/ --file  src/studio/AppTemplates/AspNet/Dockerfile --tag altinn-apps:${{github.sha}}
-      
     - uses: Azure/container-scan@v0
       with:
         image-name: altinn-apps:${{ github.sha }}
-    
