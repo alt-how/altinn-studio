@@ -66,7 +66,7 @@ RUN dotnet build designer/Designer.csproj -c Release -o /app_output
 RUN dotnet publish designer/Designer.csproj -c Release -o /app_output
 
 # Ref. comment above on upgrading Alpine.
-FROM mcr.microsoft.com/dotnet/aspnet:5.0.5-alpine3.12 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.12 AS final
 EXPOSE 80
 WORKDIR /app
 COPY --from=build /app_output .
