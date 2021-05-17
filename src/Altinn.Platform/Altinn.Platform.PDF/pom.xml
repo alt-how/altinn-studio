@@ -89,7 +89,7 @@
       <!--4.2.6 breaks app -->
       <groupId>com.azure</groupId>
       <artifactId>azure-security-keyvault-secrets</artifactId>
-      <version>4.2.5</version>
+      <version>4.2.8</version>
     </dependency>
     <dependency>
       <groupId>com.microsoft.azure</groupId>
