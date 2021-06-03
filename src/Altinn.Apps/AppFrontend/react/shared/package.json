@@ -58,7 +58,7 @@
     "react": "~16.13.1",
     "react-docgen-typescript": "~1.22.0",
     "react-dom": "~16.13.1",
-    "react-styleguidist": "~11.1.6",
+    "react-styleguidist": "~11.1.7",
     "react-test-renderer": "~16.13.1",
     "ts-jest": "~26.5.6"
   },
