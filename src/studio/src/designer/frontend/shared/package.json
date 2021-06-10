@@ -57,7 +57,7 @@
     "jest-environment-enzyme": "~7.1.2",
     "jest-enzyme": "~7.1.2",
     "jest-junit": "~12.1.0",
-    "jsdom": "~16.5.3",
+    "jsdom": "~16.6.0",
     "parse5": "6.0.1",
     "react": "~16.13.1",
     "react-docgen-typescript": "~1.22.0",
