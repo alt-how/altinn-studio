@@ -50,7 +50,7 @@
     "enzyme-adapter-react-16": "~1.15.6",
     "fork-ts-checker-notifier-webpack-plugin": "~4.0.0",
     "fork-ts-checker-webpack-plugin": "~6.2.10",
-    "jest": "~27.0.4",
+    "jest": "~27.0.5",
     "jest-environment-enzyme": "~7.1.2",
     "jest-enzyme": "~7.1.2",
     "jest-junit": "~12.2.0",
