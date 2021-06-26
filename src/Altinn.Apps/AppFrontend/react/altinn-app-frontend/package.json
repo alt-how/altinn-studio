@@ -33,7 +33,7 @@
     "ajv-formats": "~2.1.0",
     "axios": "~0.21.1",
     "dot-object": "~2.1.4",
-    "immutability-helper": "2.7.0",
+    "immutability-helper": "3.1.1",
     "jsonpointer": "4.1.0",
     "lodash.isequal": "~4.5.0",
     "moment": "~2.29.1",
