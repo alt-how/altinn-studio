@@ -19,7 +19,7 @@
     "gulp-run-command": "0.0.10",
     "lerna": "4.0.0",
     "webpack": "4.44.2",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "4.7.2"
   },
   "dependencies": {
     "altinn-designsystem": "2.7.12",
