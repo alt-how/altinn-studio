@@ -18,7 +18,7 @@
   "license": "3-Clause BSD",
   "dependencies": {
     "@babel/polyfill": "~7.12.1",
-    "@material-ui/core": "~4.11.4",
+    "@material-ui/core": "~4.12.1",
     "@reduxjs/toolkit": "~1.6.0",
     "@types/domhandler": "^2.4.1",
     "axios": "~0.21.1",
