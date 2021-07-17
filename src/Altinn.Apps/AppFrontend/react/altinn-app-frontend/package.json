@@ -29,7 +29,7 @@
     "@material-ui/pickers": "~3.3.10",
     "@material-ui/styles": "4.11.4",
     "@reduxjs/toolkit": "~1.6.0",
-    "ajv": "~8.6.0",
+    "ajv": "~8.6.1",
     "ajv-formats": "~2.1.0",
     "axios": "~0.21.1",
     "dot-object": "~2.1.4",
