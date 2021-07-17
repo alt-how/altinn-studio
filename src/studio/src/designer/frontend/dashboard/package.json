@@ -83,7 +83,7 @@
     "style-loader": "~2.0.0",
     "svg-inline-loader": "~0.8.2",
     "ts-jest": "~27.0.3",
-    "ts-loader": "~8.3.0",
+    "ts-loader": "~9.2.1",
     "terser-webpack-plugin": "~4.2.3",
     "webpack": "~4.44.2",
     "webpack-dev-server": "~3.11.2",
