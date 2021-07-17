@@ -68,7 +68,7 @@ RUN dotnet publish designer/Designer.csproj -c Release -o /app_output
 
 # Ref. comment above on upgrading Alpine.
 # aspnet:5.0.7-alpine3.12 appears to be causing issues with libgit2sharp
-FROM mcr.microsoft.com/dotnet/aspnet:5.0.6-alpine3.12 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:5.0.7-alpine3.12 AS final
 EXPOSE 80
 WORKDIR /app
 COPY --from=build /app_output .
